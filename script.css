@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(0, 0%, 85%);
+}
+.box {
+    background-color: hsl(20, 60%, 85%);
+    /* margin 1opx */
+    margin: 0 auto;
+    padding-left:20px;
+    border: 7px groove hsl(0, 80%, 60%);
+    width: 50%;
+    height: 150px;    
+}

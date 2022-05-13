@@ -1,0 +1,20 @@
+h2{
+    color: green;
+}
+h1{
+    color: pink;
+    background-color: black;
+}
+#t3{
+    color: yellow;
+    background-color: lightgray;
+}
+.fundocinza{
+    background-color: gray;
+}
+.textovermelho{
+    color: red;
+}
+body{
+    font-family: sans-serif;
+}

@@ -1,0 +1,20 @@
+.cor1 {background-color: hsl(240, 10%, 70%);}
+.cor2 {background-color: hsl(240,90%, 80%);}
+.cor3 {background-color: hsl(240, 90%, 20%);}
+#corpo {
+    background-color: rgb(230, 222, 230);
+}
+ #titulo {background-color: hsl(120, 50%, 30%);
+color: white;}
+
+#titulo:hover {
+    background-color: hsl(120, 100%, 70%);
+}
+
+
+
+
+/*
+Desafio,
+criar tres cores de mesma cor de base hsl
+o valor H tem q ser o msm!

@@ -8,9 +8,9 @@
     height: 100vh;
     background-image: url(img/lobinho1.jpg);
     background-size: cover;
-    background-position: 50% 30%;
+    background-position: top right;
     background-repeat: no-repeat;
-    display: flex;  
+    /*display: flex;  
     flex-direction: row;   
     justify-content: space-around; 
      /* align-items: center;  */

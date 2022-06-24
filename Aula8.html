@@ -10,9 +10,32 @@
     <form name="form1" method="get" action="http://hebertphp.awardspace.us/recebe.php">
         <fieldset>
             <legend>Cadastro</legend>
-            Login <input type="text" name="login"><br>
-            Senha <input type="password" name="Senha">
-            <input type="submit" value="Cadastrar!">
+            Login <input type="text" name="login" required placeholder="Digite seu Login"><br>
+            Senha <input type="password" name="Senha" required placeholder="Digite sua senha"><br>
+            Número <input type="number" name="numero"><br>
+            Data <input type="date" name="data"><br>
+            E-mail <input type="email" name="emial" required><br>
+            quais linguagens de programação você conhece<br>
+
+            <input type="checkbox" name="js" value="js" checked> JavaScript
+            <input type="checkbox" name="php" value="php"> PHP
+            <input type="checkbox" name="java" value="java"> Java <br>
+            <input type="checkbox" name="outros" value="outros"> outros <input type="text" name="outros_text" disabled><br>
+
+            Escolha a sua forma de cadastro:<br>
+           <input type="radio"  name="forma_cad" value="email"> E-mail<br>
+           <input type="radio"  name="forma_cad" value="cpf" checked> CPF<br>
+           <input type="radio"  name="forma_cad" value="rg"> RG<br>
+
+           selecione UF <select name="uf">
+            <option value="">Selecione UF</option>
+            <option value="SP" selected>São paulo</option>
+            <option value="RJ">Rio de janeiro</option>
+           </select><br>
+           Digite a sua observação:<br>
+           <textarea name="obs" id="" cols="30" rows="10"></textarea><br>
+         
+           <br><input type="submit" value="Cadastrar!">  <input value="Limpar" type="reset">
           </fieldset>  
     </form>
 </body>

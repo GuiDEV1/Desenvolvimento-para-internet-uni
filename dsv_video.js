@@ -13,4 +13,4 @@ function mudar() {
     if (i == video.length) { i = 0; }
     setTimeout(function () { mudar() }, tempo * 1000);
 }
-mudar();
+mudar();    
